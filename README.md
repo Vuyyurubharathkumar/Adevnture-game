@@ -1,3 +1,6 @@
+Here’s your updated **README.md** with the DFS map image embedded in the “Game Map” section.
+
+---
 
 # 🗺️ DFS Adventure Game – Find the Legendary Treasure
 
@@ -57,6 +60,14 @@ python adventure_game.py
 
 ---
 
+## 🗺️ Game Map (DFS Paths)
+
+Below is the full **DFS traversal map** of the game’s scenes:
+
+![DFS Adventure Game Map](dfs_adventure_game_map.png)
+
+---
+
 ## 🧠 Algorithm
 
 The game uses a **Depth-First Search (DFS)** style traversal:
@@ -64,7 +75,7 @@ The game uses a **Depth-First Search (DFS)** style traversal:
 * **DFS Backtracking**: The game recursively explores each path (scene), going as deep as possible before backtracking when a dead end or failure occurs.
 * **Randomized Outcomes**: Certain paths (like crossing stones or fighting bandits) use random probabilities for success/failure.
 
-Example:
+Example traversal:
 
 ```
 start → thicket → river → bridge → final (win)
@@ -77,8 +88,9 @@ start → clearing → riddle (wrong) → start → ...
 
 ```
 📁 dfs-adventure-game
-│── adventure_game.py   # Main game script
-│── README.md            # Game documentation
+│── adventure_game.py        # Main game script
+│── dfs_adventure_game_map.png # DFS flowchart of game paths
+│── README.md                 # Game documentation
 ```
 
 ---
